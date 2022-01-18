@@ -1,4 +1,4 @@
-[Example of the more common minimal permissive "flexi-flux" using an iframe - we are going to use a div tag instead](http://bright-spark.github.io/flexi-flux-webapp)
+[Example of the more common minimal fully permissive "flexi-flux" using an iframe - we are going to use a div tag instead](http://bright-spark.github.io/flexi-flux-webapp)
 
 ```  
 <!DOCTYPE html>
@@ -11,21 +11,24 @@
 		<meta name="format-detection" content="telephone=no">
 		<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, initial-scale=1.0, user-scalable=no">
 		<style>
-				html, body, iframe {
-					-webkit-text-size-adjust: 100%;
-					margin:0;
-					padding:0;
-					height:100%;
-					}
-				iframe {
-					display:block;
-					width:100%;
-					border:none;
-					}
-			</style>
+			html, body, iframe {
+				-webkit-text-size-adjust: 100%;
+				margin:0;
+				padding:0;
+				height:100%;
+				}
+			iframe {
+				display:block;
+				width:100%;
+				border:none;
+				}
+		</style>
 	</head>
 	<body>
-		<iframe referrerpolicy="no-referrer" allow="fullscreen; payment; geolocation *; microphone *; camera *; midi *; encrypted-media *;" sandbox="allow-same-origin allow-pointer-lock allow-forms allow-scripts allow-modals allow-popups allow-popups-to-escape-sandbox allow-presentation allow-top-navigation allow-orientation-lock allow-storage-access-by-user-activation" loading="eager" src="https://airplay.studio/extreme" scrolling="yes" frameborder="0" allowtransparency="true" allowfullscreen ></iframe>
+		<iframe referrerpolicy="no-referrer" allow="fullscreen; payment; geolocation *; microphone *; camera *; midi *; encrypted-media *;" 
+			sandbox="allow-same-origin allow-pointer-lock allow-forms allow-scripts allow-modals allow-popups allow-popups-to-escape-sandbox allow-presentation allow-top-navigation allow-orientation-lock allow-storage-access-by-user-activation" 
+			loading="eager" src="https://airplay.studio/extreme" scrolling="yes" frameborder="0" allowtransparency="true" allowfullscreen >
+		</iframe>
 	</body>
 </html>
 ```
