@@ -1,4 +1,4 @@
-[Example of the more common minimal permissive HTML5 & CSS needed to render a "flexi-flux" using an iframe - we are going to use a <div> instead](http://bright-spark.github.io/flexi-flux-webapp)
+[Example of the more common minimal permissive "flexi-flux" using an iframe - we are going to use a div tag instead](http://bright-spark.github.io/flexi-flux-webapp)
 
 ```  
 <!DOCTYPE html>
