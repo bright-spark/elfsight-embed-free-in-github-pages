@@ -1,4 +1,4 @@
-[Minimal Permissive HTML5 & CSS needed to render a "flexi-flux" webapp](http://bright-spark.github.io/flexi-flux-webapp)
+[Minimal Permissive HTML5 & CSS needed to render a "flexi-flux" webapp an iframe we are going to use a <div> instead](http://bright-spark.github.io/flexi-flux-webapp)
 
 ```  
 <!DOCTYPE html>
